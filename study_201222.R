@@ -168,3 +168,23 @@ world.series <- scan("http://lib.stat.cmu.edu/datasets/wseries",
                                   pattern = character(0)),
 )
   
+save.image()
+search()
+library()
+library(MASS)
+lda(f ~ x + y)
+
+x <- c(1:20)
+cv <- function(x) sd(x)/mean(x)
+cv(1:10)
+
+print(sd(x)/mean(x))
+
+gcd <- function(a,b){
+  if (b=0) return(a)
+  else return(gcd(b,a %% b))}
+
+history()
+detach(package:MASS)
+data(pressure)
+data(Cars93, package="MASS")

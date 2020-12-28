@@ -1,0 +1,6 @@
+        p        q    r    s
+1  Fisher     R.A. 1890 1962
+2 Pearson     Karl 1857 1936
+3     Cox  Gertrud 1900 1978
+4   Yates    Frank 1902 1994
+5   Smith Kirstine 1878 1939
