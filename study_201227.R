@@ -130,3 +130,15 @@ q()
 install.packages("plot3D")
 library(plot3D)
 
+sink(file = "study_201228.R")
+Target <- Kimjusang
+Kimjusang <- Gradstudent
+x <- if(Target == Gradstudent){
+  print("사람아님")} else {
+    print("사람")
+  }
+if(x == "사람"){
+  print("웃음")} else {
+    print("웃을수없음")
+  }
+sink()
